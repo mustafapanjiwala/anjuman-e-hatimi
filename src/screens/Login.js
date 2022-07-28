@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import data from "../loginData.json";
 import Home from "./Home";
-import db from "../firebase";
-import { collection, doc, getDocs, updateDoc } from "firebase/firestore";
 
 const Login = () => {
   const [its, setIts] = useState("");
